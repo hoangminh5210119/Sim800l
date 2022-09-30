@@ -13,7 +13,7 @@ Go to [Releases](https://github.com/cristiansteib/Sim800l/releases) click the " 
 
 Name|Return|Notes
 :-------|:-------:|:-----------------------------------------------:|
-begin()|None|Initialize the library
+begin(Stream &serial)|None|Initialize the library
 reset()|None|Reset the module,and wait to Sms Ready.
 sendSms(number,text)|true or false|parameters must be Strings.
 readSms(index)|String|index is the position of the sms in the prefered memory storage
